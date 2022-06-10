@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/Ron/Projects/Apps/Forest-Admin-Desktop/build/macos/Build/Products/Debug/desktop_window/desktop_window.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/Ron/Projects/Apps/Forest-Admin-Desktop/build/macos/Build/Intermediates.noindex/Pods.build/Debug/desktop_window.build/unextended-module.modulemap",
+    }]
+  }]
+}

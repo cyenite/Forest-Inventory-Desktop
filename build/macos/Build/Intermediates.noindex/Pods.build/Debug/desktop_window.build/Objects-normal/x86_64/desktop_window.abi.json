@@ -1,0 +1,225 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Cocoa",
+      "printedName": "Cocoa",
+      "declKind": "Import",
+      "moduleName": "desktop_window"
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "desktop_window"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "desktop_window"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "desktop_window"
+    },
+    {
+      "kind": "Import",
+      "name": "desktop_window",
+      "printedName": "desktop_window",
+      "declKind": "Import",
+      "moduleName": "desktop_window",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DesktopWindowPlugin",
+      "printedName": "DesktopWindowPlugin",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "register",
+          "printedName": "register(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FlutterPluginRegistrar",
+              "printedName": "FlutterMacOS.FlutterPluginRegistrar",
+              "usr": "c:objc(pl)FlutterPluginRegistrar"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@desktop_window@objc(cs)DesktopWindowPlugin(cm)registerWithRegistrar:",
+          "mangledName": "$s14desktop_window19DesktopWindowPluginC8register4withySo07FlutterE9Registrar_p_tFZ",
+          "moduleName": "desktop_window",
+          "static": true,
+          "objc_name": "registerWithRegistrar:",
+          "declAttributes": [
+            "Final",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "handle",
+          "printedName": "handle(_:result:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FlutterMethodCall",
+              "printedName": "FlutterMacOS.FlutterMethodCall",
+              "usr": "c:objc(cs)FlutterMethodCall"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Any?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Any?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@desktop_window@objc(cs)DesktopWindowPlugin(im)handleMethodCall:result:",
+          "mangledName": "$s14desktop_window19DesktopWindowPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+          "moduleName": "desktop_window",
+          "isOpen": true,
+          "objc_name": "handleMethodCall:result:",
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DesktopWindowPlugin",
+              "printedName": "desktop_window.DesktopWindowPlugin",
+              "usr": "c:@M@desktop_window@objc(cs)DesktopWindowPlugin"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@desktop_window@objc(cs)DesktopWindowPlugin(im)init",
+          "mangledName": "$s14desktop_window19DesktopWindowPluginCACycfc",
+          "moduleName": "desktop_window",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@desktop_window@objc(cs)DesktopWindowPlugin",
+      "mangledName": "$s14desktop_window19DesktopWindowPluginC",
+      "moduleName": "desktop_window",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

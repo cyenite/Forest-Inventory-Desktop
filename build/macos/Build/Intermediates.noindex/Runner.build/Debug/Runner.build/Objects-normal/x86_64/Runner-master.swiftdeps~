@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "c4dfddf03511dd2ad3594563f40db9ba58ab950ec70a68e67e005e4bf7b0b81f"
+build_start_time: [1654541478, 669677019]
+build_end_time: [1654541484, 96853971]
+inputs:
+  "/Users/Ron/Projects/Apps/Forest-Admin-Desktop/macos/Flutter/GeneratedPluginRegistrant.swift": [1654541366, 108983039]
+  "/Users/Ron/Projects/Apps/Forest-Admin-Desktop/macos/Runner/AppDelegate.swift": [1652761651, 0]
+  "/Users/Ron/Projects/Apps/Forest-Admin-Desktop/macos/Runner/MainFlutterWindow.swift": [1652761651, 0]

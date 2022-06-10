@@ -1,0 +1,1243 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "AppKit",
+      "printedName": "AppKit",
+      "declKind": "Import",
+      "moduleName": "syncfusion_pdfviewer_macos"
+    },
+    {
+      "kind": "Import",
+      "name": "Cocoa",
+      "printedName": "Cocoa",
+      "declKind": "Import",
+      "moduleName": "syncfusion_pdfviewer_macos"
+    },
+    {
+      "kind": "Import",
+      "name": "CoreGraphics",
+      "printedName": "CoreGraphics",
+      "declKind": "Import",
+      "moduleName": "syncfusion_pdfviewer_macos"
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "syncfusion_pdfviewer_macos"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "syncfusion_pdfviewer_macos"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "syncfusion_pdfviewer_macos"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "syncfusion_pdfviewer_macos"
+    },
+    {
+      "kind": "Import",
+      "name": "syncfusion_pdfviewer_macos",
+      "printedName": "syncfusion_pdfviewer_macos",
+      "declKind": "Import",
+      "moduleName": "syncfusion_pdfviewer_macos",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SyncfusionFlutterPdfViewerPlugin",
+      "printedName": "SyncfusionFlutterPdfViewerPlugin",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "documentRepo",
+          "printedName": "documentRepo",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : CoreGraphics.CGPDFDocument?]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "CoreGraphics.CGPDFDocument?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CGPDFDocument",
+                      "printedName": "CoreGraphics.CGPDFDocument",
+                      "usr": "c:@T@CGPDFDocumentRef"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:26syncfusion_pdfviewer_macos32SyncfusionFlutterPdfViewerPluginC12documentRepoSDySSSo16CGPDFDocumentRefaSgGvp",
+          "mangledName": "$s26syncfusion_pdfviewer_macos32SyncfusionFlutterPdfViewerPluginC12documentRepoSDySSSo16CGPDFDocumentRefaSgGvp",
+          "moduleName": "syncfusion_pdfviewer_macos",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[Swift.String : CoreGraphics.CGPDFDocument?]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "CoreGraphics.CGPDFDocument?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "CGPDFDocument",
+                          "printedName": "CoreGraphics.CGPDFDocument",
+                          "usr": "c:@T@CGPDFDocumentRef"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:26syncfusion_pdfviewer_macos32SyncfusionFlutterPdfViewerPluginC12documentRepoSDySSSo16CGPDFDocumentRefaSgGvg",
+              "mangledName": "$s26syncfusion_pdfviewer_macos32SyncfusionFlutterPdfViewerPluginC12documentRepoSDySSSo16CGPDFDocumentRefaSgGvg",
+              "moduleName": "syncfusion_pdfviewer_macos",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[Swift.String : CoreGraphics.CGPDFDocument?]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "CoreGraphics.CGPDFDocument?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "CGPDFDocument",
+                          "printedName": "CoreGraphics.CGPDFDocument",
+                          "usr": "c:@T@CGPDFDocumentRef"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:26syncfusion_pdfviewer_macos32SyncfusionFlutterPdfViewerPluginC12documentRepoSDySSSo16CGPDFDocumentRefaSgGvs",
+              "mangledName": "$s26syncfusion_pdfviewer_macos32SyncfusionFlutterPdfViewerPluginC12documentRepoSDySSSo16CGPDFDocumentRefaSgGvs",
+              "moduleName": "syncfusion_pdfviewer_macos",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:26syncfusion_pdfviewer_macos32SyncfusionFlutterPdfViewerPluginC12documentRepoSDySSSo16CGPDFDocumentRefaSgGvM",
+              "mangledName": "$s26syncfusion_pdfviewer_macos32SyncfusionFlutterPdfViewerPluginC12documentRepoSDySSSo16CGPDFDocumentRefaSgGvM",
+              "moduleName": "syncfusion_pdfviewer_macos",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "register",
+          "printedName": "register(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FlutterPluginRegistrar",
+              "printedName": "FlutterMacOS.FlutterPluginRegistrar",
+              "usr": "c:objc(pl)FlutterPluginRegistrar"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@syncfusion_pdfviewer_macos@objc(cs)SyncfusionFlutterPdfViewerPlugin(cm)registerWithRegistrar:",
+          "mangledName": "$s26syncfusion_pdfviewer_macos32SyncfusionFlutterPdfViewerPluginC8register4withySo0eH9Registrar_p_tFZ",
+          "moduleName": "syncfusion_pdfviewer_macos",
+          "static": true,
+          "objc_name": "registerWithRegistrar:",
+          "declAttributes": [
+            "Final",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "handle",
+          "printedName": "handle(_:result:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FlutterMethodCall",
+              "printedName": "FlutterMacOS.FlutterMethodCall",
+              "usr": "c:objc(cs)FlutterMethodCall"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Any?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Any?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@syncfusion_pdfviewer_macos@objc(cs)SyncfusionFlutterPdfViewerPlugin(im)handleMethodCall:result:",
+          "mangledName": "$s26syncfusion_pdfviewer_macos32SyncfusionFlutterPdfViewerPluginC6handle_6resultySo0E10MethodCallC_yypSgctF",
+          "moduleName": "syncfusion_pdfviewer_macos",
+          "isOpen": true,
+          "objc_name": "handleMethodCall:result:",
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SyncfusionFlutterPdfViewerPlugin",
+              "printedName": "syncfusion_pdfviewer_macos.SyncfusionFlutterPdfViewerPlugin",
+              "usr": "c:@M@syncfusion_pdfviewer_macos@objc(cs)SyncfusionFlutterPdfViewerPlugin"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@syncfusion_pdfviewer_macos@objc(cs)SyncfusionFlutterPdfViewerPlugin(im)init",
+          "mangledName": "$s26syncfusion_pdfviewer_macos32SyncfusionFlutterPdfViewerPluginCACycfc",
+          "moduleName": "syncfusion_pdfviewer_macos",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@syncfusion_pdfviewer_macos@objc(cs)SyncfusionFlutterPdfViewerPlugin",
+      "mangledName": "$s26syncfusion_pdfviewer_macos32SyncfusionFlutterPdfViewerPluginC",
+      "moduleName": "syncfusion_pdfviewer_macos",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NSBitmapImageRep",
+      "printedName": "NSBitmapImageRep",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "png",
+          "printedName": "png",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Data?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Data",
+                  "printedName": "Foundation.Data",
+                  "usr": "s:10Foundation4DataV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:So16NSBitmapImageRepC26syncfusion_pdfviewer_macosE3png10Foundation4DataVSgvp",
+          "mangledName": "$sSo16NSBitmapImageRepC26syncfusion_pdfviewer_macosE3png10Foundation4DataVSgvp",
+          "moduleName": "syncfusion_pdfviewer_macos",
+          "isOpen": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Data?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Data",
+                      "printedName": "Foundation.Data",
+                      "usr": "s:10Foundation4DataV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:So16NSBitmapImageRepC26syncfusion_pdfviewer_macosE3png10Foundation4DataVSgvg",
+              "mangledName": "$sSo16NSBitmapImageRepC26syncfusion_pdfviewer_macosE3png10Foundation4DataVSgvg",
+              "moduleName": "syncfusion_pdfviewer_macos",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)NSBitmapImageRep",
+      "moduleName": "AppKit",
+      "isOpen": true,
+      "objc_name": "NSBitmapImageRep",
+      "declAttributes": [
+        "ObjC",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)NSImageRep",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "AppKit.NSImageRep",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Data",
+      "printedName": "Data",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "bitmap",
+          "printedName": "bitmap",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "AppKit.NSBitmapImageRep?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSBitmapImageRep",
+                  "printedName": "AppKit.NSBitmapImageRep",
+                  "usr": "c:objc(cs)NSBitmapImageRep"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10Foundation4DataV26syncfusion_pdfviewer_macosE6bitmapSo16NSBitmapImageRepCSgvp",
+          "mangledName": "$s10Foundation4DataV26syncfusion_pdfviewer_macosE6bitmapSo16NSBitmapImageRepCSgvp",
+          "moduleName": "syncfusion_pdfviewer_macos",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "AppKit.NSBitmapImageRep?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSBitmapImageRep",
+                      "printedName": "AppKit.NSBitmapImageRep",
+                      "usr": "c:objc(cs)NSBitmapImageRep"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10Foundation4DataV26syncfusion_pdfviewer_macosE6bitmapSo16NSBitmapImageRepCSgvg",
+              "mangledName": "$s10Foundation4DataV26syncfusion_pdfviewer_macosE6bitmapSo16NSBitmapImageRepCSgvg",
+              "moduleName": "syncfusion_pdfviewer_macos",
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:10Foundation4DataV",
+      "mangledName": "$s10Foundation4DataV",
+      "moduleName": "Foundation",
+      "declAttributes": [
+        "Frozen"
+      ],
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "ReferenceConvertible",
+          "printedName": "ReferenceConvertible",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ReferenceType",
+              "printedName": "ReferenceType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSData",
+                  "printedName": "Foundation.NSData",
+                  "usr": "c:objc(cs)NSData"
+                }
+              ]
+            }
+          ],
+          "usr": "s:10Foundation20ReferenceConvertibleP",
+          "mangledName": "$s10Foundation20ReferenceConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RandomAccessCollection",
+          "printedName": "RandomAccessCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt8",
+                  "printedName": "Swift.UInt8",
+                  "usr": "s:s5UInt8V"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Data",
+                  "printedName": "Foundation.Data",
+                  "usr": "s:10Foundation4DataV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Indices",
+              "printedName": "Indices",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Range",
+                  "printedName": "Swift.Range<Swift.Int>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sn"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sk",
+          "mangledName": "$sSk"
+        },
+        {
+          "kind": "Conformance",
+          "name": "MutableCollection",
+          "printedName": "MutableCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt8",
+                  "printedName": "Swift.UInt8",
+                  "usr": "s:s5UInt8V"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Data",
+                  "printedName": "Foundation.Data",
+                  "usr": "s:10Foundation4DataV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SM",
+          "mangledName": "$sSM"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RangeReplaceableCollection",
+          "printedName": "RangeReplaceableCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Data",
+                  "printedName": "Foundation.Data",
+                  "usr": "s:10Foundation4DataV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sm",
+          "mangledName": "$sSm"
+        },
+        {
+          "kind": "Conformance",
+          "name": "MutableDataProtocol",
+          "printedName": "MutableDataProtocol",
+          "usr": "s:10Foundation19MutableDataProtocolP",
+          "mangledName": "$s10Foundation19MutableDataProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ContiguousBytes",
+          "printedName": "ContiguousBytes",
+          "usr": "s:10Foundation15ContiguousBytesP",
+          "mangledName": "$s10Foundation15ContiguousBytesP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "BidirectionalCollection",
+          "printedName": "BidirectionalCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt8",
+                  "printedName": "Swift.UInt8",
+                  "usr": "s:s5UInt8V"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Data",
+                  "printedName": "Foundation.Data",
+                  "usr": "s:10Foundation4DataV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Indices",
+              "printedName": "Indices",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Range",
+                  "printedName": "Swift.Range<Swift.Int>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sn"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SK",
+          "mangledName": "$sSK"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Collection",
+          "printedName": "Collection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt8",
+                  "printedName": "Swift.UInt8",
+                  "usr": "s:s5UInt8V"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Iterator",
+              "printedName": "Iterator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Iterator",
+                  "printedName": "Foundation.Data.Iterator",
+                  "usr": "s:10Foundation4DataV8IteratorV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Data",
+                  "printedName": "Foundation.Data",
+                  "usr": "s:10Foundation4DataV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Indices",
+              "printedName": "Indices",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Range",
+                  "printedName": "Swift.Range<Swift.Int>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sn"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sl",
+          "mangledName": "$sSl"
+        },
+        {
+          "kind": "Conformance",
+          "name": "DataProtocol",
+          "printedName": "DataProtocol",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Regions",
+              "printedName": "Regions",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CollectionOfOne",
+                  "printedName": "Swift.CollectionOfOne<Foundation.Data>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Data",
+                      "printedName": "Foundation.Data",
+                      "usr": "s:10Foundation4DataV"
+                    }
+                  ],
+                  "usr": "s:s15CollectionOfOneV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:10Foundation12DataProtocolP",
+          "mangledName": "$s10Foundation12DataProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sequence",
+          "printedName": "Sequence",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt8",
+                  "printedName": "Swift.UInt8",
+                  "usr": "s:s5UInt8V"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Iterator",
+              "printedName": "Iterator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Iterator",
+                  "printedName": "Foundation.Data.Iterator",
+                  "usr": "s:10Foundation4DataV8IteratorV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:ST",
+          "mangledName": "$sST"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomReflectable",
+          "printedName": "CustomReflectable",
+          "usr": "s:s17CustomReflectableP",
+          "mangledName": "$ss17CustomReflectableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ObjectiveCBridgeable",
+          "printedName": "_ObjectiveCBridgeable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_ObjectiveCType",
+              "printedName": "_ObjectiveCType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSData",
+                  "printedName": "Foundation.NSData",
+                  "usr": "c:objc(cs)NSData"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s21_ObjectiveCBridgeableP",
+          "mangledName": "$ss21_ObjectiveCBridgeableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NSImage",
+      "printedName": "NSImage",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(size:actions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSImage",
+              "printedName": "AppKit.NSImage",
+              "usr": "c:objc(cs)NSImage"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGSize",
+              "printedName": "CoreGraphics.CGSize",
+              "usr": "c:@S@CGSize"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(CoreGraphics.CGContext) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGContext",
+                  "printedName": "CoreGraphics.CGContext",
+                  "usr": "c:@T@CGContextRef"
+                }
+              ],
+              "typeAttributes": [
+                "noescape"
+              ]
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:So7NSImageC26syncfusion_pdfviewer_macosE4size7actionsABSo6CGSizeV_ySo12CGContextRefaXEtcfc",
+          "mangledName": "$sSo7NSImageC26syncfusion_pdfviewer_macosE4size7actionsABSo6CGSizeV_ySo12CGContextRefaXEtcfc",
+          "moduleName": "syncfusion_pdfviewer_macos",
+          "init_kind": "Convenience"
+        },
+        {
+          "kind": "Var",
+          "name": "png",
+          "printedName": "png",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Data?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Data",
+                  "printedName": "Foundation.Data",
+                  "usr": "s:10Foundation4DataV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:So7NSImageC26syncfusion_pdfviewer_macosE3png10Foundation4DataVSgvp",
+          "mangledName": "$sSo7NSImageC26syncfusion_pdfviewer_macosE3png10Foundation4DataVSgvp",
+          "moduleName": "syncfusion_pdfviewer_macos",
+          "isOpen": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Data?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Data",
+                      "printedName": "Foundation.Data",
+                      "usr": "s:10Foundation4DataV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:So7NSImageC26syncfusion_pdfviewer_macosE3png10Foundation4DataVSgvg",
+              "mangledName": "$sSo7NSImageC26syncfusion_pdfviewer_macosE3png10Foundation4DataVSgvg",
+              "moduleName": "syncfusion_pdfviewer_macos",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)NSImage",
+      "moduleName": "AppKit",
+      "isOpen": true,
+      "objc_name": "NSImage",
+      "declAttributes": [
+        "ObjC",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ExpressibleByImageLiteral",
+          "printedName": "_ExpressibleByImageLiteral",
+          "usr": "s:s26_ExpressibleByImageLiteralP",
+          "mangledName": "$ss26_ExpressibleByImageLiteralP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

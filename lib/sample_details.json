@@ -1,0 +1,152 @@
+[
+  {
+    "categoryName": "Maps",
+    "webCategoryId": 1,
+    "mobileCategoryId": 2,
+    "controlList": [
+      {
+        "title": "Maps",
+        "description": "Visualize and perform Remote Sensing Queries on maps.",
+        "image": "images/map.png",
+        "status": "in progress",
+        "displayType": "tab",
+        "controlId": 3,
+        "subItems": [
+          {
+            "type": "child",
+            "title": "Shape Layer",
+            "displayType": "tab",
+            "subItems": [
+              {
+                "type": "sample",
+                "title": "Study Area",
+                "key": "studyArea",
+                "codeLink": ""
+              },
+              {
+                "type": "sample",
+                "title": "Biodiversity",
+                "key": "biodiversity",
+                "codeLink": ""
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "title": "Tile Layer",
+            "displayType": "tab",
+            "subItems": [
+              {
+                "type": "sample",
+                "title": "Land Use Land Cover",
+                "key": "lulc",
+                "description": "",
+                "codeLink": ""
+              },
+              {
+                "type": "sample",
+                "title": "Land Cover Change",
+                "key": "lcc",
+                "description": "",
+                "codeLink": ""
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "title": "Localization",
+            "subItems": [
+              {
+                "type": "sample",
+                "title": "Localization",
+                "key": "maps_with_localization",
+                "needsPropertyPanel": true,
+                "status": "New",
+                "sourceLink": "",
+                "sourceText": "",
+                "codeLink": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Database",
+    "mobileCategoryId": 1,
+    "webCategoryId": 2,
+    "controlList": [
+      {
+        "title": "Database",
+        "status": "done",
+        "description": "Display data collected in database and from the data collection app.",
+        "image": "images/Datagrid.png",
+        "displayType": "tab",
+        "controlId": 1,
+        "subItems": [
+          {
+            "type": "child",
+            "title": "Collections",
+            "subItems": [
+              {
+                "type": "sample",
+                "title": "Ground Data",
+                "key": "getting_started_datagrid",
+                "codeLink": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Calendar",
+    "mobileCategoryId": 3,
+    "webCategoryId": 3,
+    "controlList": [
+      {
+        "title": "Event Calendar",
+        "description": "Allows you to easily visualize and schedule appointments",
+        "image": "images/calendar.png",
+        "status": "done",
+        "displayType": "tab",
+        "controlId": 1,
+        "subItems": [
+          {
+            "type": "sample",
+            "title": "Scheduling",
+            "status": "Updated",
+            "key": "appointment_editor_calendar",
+            "codeLink": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "File Management",
+    "mobileCategoryId": 4,
+    "webCategoryId": 4,
+    "controlList": [
+      {
+        "title": "Satellite Images",
+        "description": "View the PDF document seamlessly and efficiently",
+        "image": "images/pdf_viewer.png",
+        "displayType": "tab",
+        "status": "Updated",
+        "controlId": 1,
+        "subItems": [
+          {
+            "type": "sample",
+            "title": "File Upload",
+            "key": "fileUpload",
+            "codeLink": ""
+          }
+
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/Ron/Projects/Apps/Forest-Admin-Desktop/build/macos/Build/Products/Debug/syncfusion_pdfviewer_macos/syncfusion_pdfviewer_macos.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/Ron/Projects/Apps/Forest-Admin-Desktop/build/macos/Build/Intermediates.noindex/Pods.build/Debug/syncfusion_pdfviewer_macos.build/unextended-module.modulemap",
+    }]
+  }]
+}
