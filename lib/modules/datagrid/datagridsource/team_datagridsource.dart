@@ -1,6 +1,8 @@
 /// Dart import
 import 'dart:math' as math;
 
+import 'package:cloud_firestore/cloud_firestore.dart';
+
 /// Packages import
 import 'package:flutter/material.dart';
 
@@ -221,7 +223,7 @@ class EmployeeDataGridSource extends DataGridSource {
   /// Creates the employee data source class with required details.
   EmployeeDataGridSource() {
     _employees = _getEmployees(3);
-    buildDataGridRows();
+    getFirebaseDocument();
   }
 
   final math.Random _random = math.Random();
@@ -229,7 +231,7 @@ class EmployeeDataGridSource extends DataGridSource {
   List<Employee> _employees = <Employee>[];
 
   /// Building DataGridRows
-  void buildDataGridRows() {
+  /* void buildDataGridRows() {
     _dataGridRows = _employees.map<DataGridRow>((Employee employee) {
       return DataGridRow(cells: <DataGridCell>[
         DataGridCell<String>(
@@ -245,6 +247,30 @@ class EmployeeDataGridSource extends DataGridSource {
         DataGridCell<String>(columnName: 'altitude', value: employee.altitude),
       ]);
     }).toList();
+  }*/
+
+  void getFirebaseDocument() async {
+    final FirebaseFirestore db = FirebaseFirestore.instance;
+    await db.collection('Records').get().then((record) {
+      for (var doc in record.docs) {
+        _dataGridRows.add(DataGridRow(cells: <DataGridCell>[
+          DataGridCell<String>(columnName: 'collector', value: 'Anonymous'),
+          DataGridCell<String>(columnName: 'designation', value: 'Collector'),
+          DataGridCell<String>(
+              columnName: 'mail', value: doc.data()['session_id']),
+          DataGridCell<String>(columnName: 'location', value: 'Marmanet'),
+          DataGridCell<String>(columnName: 'status', value: 'N/A'),
+          DataGridCell<String>(
+              columnName: 'accuracy', value: doc.data()['aspect'].toString()),
+          DataGridCell<String>(
+              columnName: 'altitude',
+              value: doc.data()['elevation'].toString()),
+          DataGridCell<String>(
+              columnName: 'biodiversity',
+              value: doc.data()['cover']['type'].toString()),
+        ]));
+      }
+    });
   }
 
   // Overrides

@@ -119,7 +119,7 @@ class _GettingStartedDataGridState extends SampleViewState {
             padding: const EdgeInsets.all(8.0),
             alignment: Alignment.centerLeft,
             child: const Text(
-              'Mail',
+              'Session',
               overflow: TextOverflow.ellipsis,
             ),
           ),

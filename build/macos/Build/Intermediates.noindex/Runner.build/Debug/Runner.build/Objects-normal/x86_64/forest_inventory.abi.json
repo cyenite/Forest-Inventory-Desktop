@@ -40,8 +40,22 @@
     },
     {
       "kind": "Import",
+      "name": "cloud_firestore",
+      "printedName": "cloud_firestore",
+      "declKind": "Import",
+      "moduleName": "forest_inventory"
+    },
+    {
+      "kind": "Import",
       "name": "desktop_window",
       "printedName": "desktop_window",
+      "declKind": "Import",
+      "moduleName": "forest_inventory"
+    },
+    {
+      "kind": "Import",
+      "name": "firebase_core",
+      "printedName": "firebase_core",
       "declKind": "Import",
       "moduleName": "forest_inventory"
     },
@@ -253,8 +267,22 @@
     },
     {
       "kind": "Import",
+      "name": "cloud_firestore",
+      "printedName": "cloud_firestore",
+      "declKind": "Import",
+      "moduleName": "forest_inventory"
+    },
+    {
+      "kind": "Import",
       "name": "desktop_window",
       "printedName": "desktop_window",
+      "declKind": "Import",
+      "moduleName": "forest_inventory"
+    },
+    {
+      "kind": "Import",
+      "name": "firebase_core",
+      "printedName": "firebase_core",
       "declKind": "Import",
       "moduleName": "forest_inventory"
     },
@@ -447,8 +475,22 @@
     },
     {
       "kind": "Import",
+      "name": "cloud_firestore",
+      "printedName": "cloud_firestore",
+      "declKind": "Import",
+      "moduleName": "forest_inventory"
+    },
+    {
+      "kind": "Import",
       "name": "desktop_window",
       "printedName": "desktop_window",
+      "declKind": "Import",
+      "moduleName": "forest_inventory"
+    },
+    {
+      "kind": "Import",
+      "name": "firebase_core",
+      "printedName": "firebase_core",
       "declKind": "Import",
       "moduleName": "forest_inventory"
     },

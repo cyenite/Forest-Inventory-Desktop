@@ -33,6 +33,8 @@ dependencies:
   syncfusion_flutter_signaturepad: ^20.1.47
   syncfusion_flutter_pdfviewer: ^20.1.47-beta
   syncfusion_flutter_treemap: ^20.1.47-beta
+  cloud_firestore: ^3.2.1
+  firebase_core: ^1.19.1
 
 flutter:
   uses-material-design: true
